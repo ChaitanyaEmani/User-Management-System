@@ -2,7 +2,10 @@
 
 
 $("#add_user").submit(function(event){
-    alert("Data Inserted Successfully!");
+
+    alert("Data Inserted Successfully");
+
+   
 })
 
 $("#update_user").submit(function(event){
@@ -27,6 +30,7 @@ $("#update_user").submit(function(event){
     })
 
 })
+
 
 if(window.location.pathname == "/"){
     $ondelete = $(".table tbody td a.delete");
